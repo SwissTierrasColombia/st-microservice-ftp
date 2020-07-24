@@ -2,8 +2,7 @@ spring:
   application:
     name: st-microservice-ftp
   profiles:
-    active: 
-      - "develop"
+    active: "develop"
   cloud:
     config:
       enabled: true
@@ -22,4 +21,4 @@ spring:
   cloud:
     config:
       failFast: true
-      uri: http://st-config-server:8890
+      uri: http://3.15.244.160:8890
